@@ -1,5 +1,4 @@
 node_modules/
-node-telegram-bot-api/
 ./node-telegram-bot-api
 .idea
 .DS_Store
