@@ -1,7 +1,6 @@
 {
   "name": "telegrambot",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "engines": {
     "node": "10.15.1"
@@ -24,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/RuvimSypa/telegramBot/issues"
   },
-  "homepage": "https://github.com/RuvimSypa/telegramBot#readme"
+  "homepage": "https://github.com/RuvimSypa/telegramBot#readme",
+  "description": ""
 }
