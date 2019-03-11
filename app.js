@@ -1,5 +1,13 @@
 const TelegramBot = require('node-telegram-bot-api');
 const request = require('request');
+const http = require('http');
+const https = require('https');
+http.createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
+    res.end('')
+});
+setInterval(function(){
+    https.get('https://telegram-bot-danit.herokuapp.com')
+},300000);
 
 // replace the value below with the Telegram token you receive from @BotFather
 const token = '625443142:AAHoCk3zJbg9sHkGkiznAJcVhxsDZsEnATI';
